@@ -1,0 +1,8 @@
+*.swo
+*.swc
+*.pyc
+parse_git_log.py
+debian/changelog
+build
+.vagrant
+Vagrantfile

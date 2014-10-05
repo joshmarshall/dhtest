@@ -1,0 +1,10 @@
+Source: dhtest
+Section: python
+Priority: extra
+Maintainer: Josh Marshall <catchjosh@gmail.com>
+Build-Depends: python, dh-virtualenv, python-dev
+Standards-Version: 3.9.5
+
+Package: dhtest
+Architecture: any
+Description: Test dh-virtualenv app
