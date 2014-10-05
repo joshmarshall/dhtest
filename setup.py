@@ -9,5 +9,5 @@ setup(
     author="Josh Marshall",
     author_email="catchjosh@gmail.com",
     packages=["dhtest"],
-    install_requires=["tornado"],
+    install_requires=["Pillow==2.6.0", "tornado==4.0.2"],
     scripts=["server.py"])

@@ -2,9 +2,10 @@ Source: dhtest
 Section: python
 Priority: extra
 Maintainer: Josh Marshall <catchjosh@gmail.com>
-Build-Depends: python, dh-virtualenv, python-dev
+Build-Depends: python, dh-virtualenv, python-dev, libjpeg-dev, debhelper
 Standards-Version: 3.9.5
 
 Package: dhtest
+Depends: python, libjpeg-dev
 Architecture: any
-Description: Test dh-virtualenv app
+Description: Testing a dh-virtualenv app

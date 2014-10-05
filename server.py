@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 from dhtest.app import App
 from tornado.ioloop import IOLoop
