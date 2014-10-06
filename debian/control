@@ -6,6 +6,6 @@ Build-Depends: python, dh-virtualenv, python-dev, libjpeg-dev, debhelper
 Standards-Version: 3.9.5
 
 Package: dhtest
-Depends: python, libjpeg-dev
+Depends: python, libjpeg-dev, ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Testing a dh-virtualenv app
