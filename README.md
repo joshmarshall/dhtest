@@ -24,7 +24,7 @@ You'll have a debian package (something like dhtest_2014.1005-ed046c3_amd64.deb)
 
 ## HowTo
 
-Since the purpose of this is to show how a project is built using dh-virtualenv, it's work describing the steps to build this. It really comes down to these simple steps:
+Since the purpose of this is to show how a project is built using dh-virtualenv, it's worth describing the steps to build this. It really comes down to these simple steps:
 
 * Build a proper python project.
 * Set up your debian folder with a few required files.
