@@ -1,7 +1,6 @@
 *.swp
 *.swc
 *.pyc
-parse_git_log.py
 debian/changelog
 build
 .vagrant
@@ -9,4 +8,6 @@ Vagrantfile
 venv
 *.deb
 dist/
+debian/files
+debian/dhtest*
 *.egg-info
