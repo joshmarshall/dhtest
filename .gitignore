@@ -4,7 +4,6 @@
 debian/changelog
 build
 .vagrant
-Vagrantfile
 venv
 *.deb
 dist/
