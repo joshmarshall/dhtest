@@ -24,7 +24,7 @@ CHANGE_ENTRY = """{project} ({version}) UNRELEASED; urgency=low
 
 def build_commit(commit):
     date = datetime.fromtimestamp(int(commit["timestamp"]))
-    version = date.strftime("%Y.%m%d") + "-" + commit["hash"]
+    version = date.strftime("%Y.%m%d.%H%M%S") + "-" + commit["hash"]
 
     commit_date = date.strftime("%a, %d %b %Y %H:%M:%S ") + "+0000"
     message = CHANGE_ENTRY.format(
